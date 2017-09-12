@@ -4,7 +4,7 @@ package com.ramesh.com.ramesh.arrays;
  * Created by RoddaR01 on 5/10/2017.
  */
 public class PositiveNegative {
-    int[] arr= {-5,4,-2,3,44,0,-68,44,2,-3,-4,-6,8,-35,-56,-23,-78};
+    int[] arr= {-5,4,-2,3,44,0,-68,44,2,-3,8};
     public static void main(String args[]){
         PositiveNegative positiveNegative= new PositiveNegative();
         positiveNegative.sort();
@@ -53,9 +53,6 @@ public class PositiveNegative {
     }
     //Swap values without using third variable
     public void swap(int num1, int num2){
-//        arr[num1]=arr[num1]^arr[num2];
-//        arr[num2]=arr[num1]^arr[num2];
-//        arr[num1]= arr[num1]^arr[num2];
                 int temp=arr[num1];
                 arr[num1]=arr[num2];
                 arr[num2]=temp;
